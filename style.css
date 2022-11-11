@@ -53,10 +53,12 @@ body {
 .hero-text-large {
     font-size: 70px;
     font-weight: 600;
+    line-height: 90px;
 }
 
 .hero-text-small {
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 32px;
 }
 
 #hero-image {
@@ -74,8 +76,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 15px;
     background-color: #4D4B30;
     color: #FEEBCA;
     padding: 10px;
 }
+
+.contact-info-section {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 75px;
+    margin-top: 20px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#image-of-me {
+    height: auto;
+    width: 400px;
+}
+
+.contact-info-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+}
+
+.contact-form-section {
+    display: flex;
+    margin-top: 60px;
+    padding: 15px 75px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
