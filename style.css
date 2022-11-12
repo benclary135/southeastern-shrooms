@@ -114,11 +114,18 @@ body {
 }
 
 .species-list-section {
-    padding: 25px 75px;
+    padding: 0px 75px;
 }
 
-.species-table {
-    width: 100%;
+th {
+    height: 70px;
+}
+
+th, 
+td {
+    text-align: left;
+    border: 1px solid;
+    padding: 5px;
 }
 
 
